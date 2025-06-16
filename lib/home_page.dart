@@ -18,12 +18,12 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
-              const SizedBox(height: 80),
+              const SizedBox(height: 10),
               ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: Image.network(
                   'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLJSxKWA93Qe7kr3-R6l3BJpQd-_et3qRQ5A&s',
-                  width: MediaQuery.of(context).size.width * 0.9,
+                  width: MediaQuery.of(context).size.width * 0.95,
                   height: MediaQuery.of(context).size.height * 0.25,
                   fit: BoxFit.cover,
                 ),
